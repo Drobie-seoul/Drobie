@@ -1,0 +1,43 @@
+# ===== Gradle =====
+.gradle/
+**/build/
+!src/**/build/
+
+# ===== Kotlin =====
+.kotlin/
+*.iml
+
+# ===== IDE (IntelliJ / Android Studio) =====
+.idea/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# ===== Local config =====
+local.properties
+*.keystore
+*.jks
+signing.properties
+
+# ===== iOS / Xcode =====
+xcuserdata/
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcodeproj/project.xcworkspace/
+!*.xcworkspace/contents.xcworkspacedata
+**/xcshareddata/WorkspaceSettings.xcsettings
+DerivedData/
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+Pods/
+
+# ===== macOS =====
+.DS_Store
+*.swp
+*~
+
+# ===== Node (if used) =====
+node_modules/
