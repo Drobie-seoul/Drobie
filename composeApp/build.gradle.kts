@@ -47,11 +47,11 @@ kotlin {
 }
 
 android {
-    namespace = "com.drobie.drobie"
+    namespace = "com.drobie.client"
     compileSdk = libs.versions.android.compileSdk.get().toInt()
 
     defaultConfig {
-        applicationId = "com.drobie.drobie"
+        applicationId = "com.drobie.client"
         minSdk = libs.versions.android.minSdk.get().toInt()
         targetSdk = libs.versions.android.targetSdk.get().toInt()
         versionCode = 1

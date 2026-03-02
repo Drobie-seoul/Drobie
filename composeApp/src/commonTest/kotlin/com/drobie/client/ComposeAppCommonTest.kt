@@ -1,4 +1,4 @@
-package com.drobie.drobie
+package com.drobie.client
 
 import kotlin.test.Test
 import kotlin.test.assertEquals

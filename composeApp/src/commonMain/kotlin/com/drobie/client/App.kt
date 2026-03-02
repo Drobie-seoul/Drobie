@@ -1,4 +1,4 @@
-package com.drobie.drobie
+package com.drobie.client
 
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.foundation.Image

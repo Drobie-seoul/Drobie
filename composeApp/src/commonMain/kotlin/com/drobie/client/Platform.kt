@@ -1,4 +1,4 @@
-package com.drobie.drobie
+package com.drobie.client
 
 interface Platform {
     val name: String
